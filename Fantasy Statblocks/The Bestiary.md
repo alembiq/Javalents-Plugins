@@ -8,7 +8,7 @@ tags: [Statblocks/General/Bestiary]
 
 # The bestiary
 
-The statblock plugin contains a library of creatures that can be used in statblocks and other plugins, such as the [[Initiative Tracker|Initiative Tracker]]. 
+The statblock plugin contains a library of creatures that can be used in statblocks and other plugins, such as the [[Initiative Tracker|Initiative Tracker]].
 
 ## Adding to the bestiary
 
@@ -20,11 +20,11 @@ Once you have created and rendered the statblock for your entity, you can save i
 
 ### Creating creatures in frontmatter
 
-When using [[YAML]] syntax, a statblock created using the statblock code block can be added to a note's frontmatter. 
+When using [[YAML]] syntax, a statblock created using the statblock code block can be added to a note's frontmatter.
 
 #### Entities in frontmatter
 
-To enable parsing of frontmatter for custom monsters, the note must have a `statblock: true` parameter in its frontmatter, and the "[[Fantasy Statblocks/Plugin Settings#Parse Frontmatter For Creatures|Parse Frontmatter in Notes]]" setting must be enabled, or the corresponding command in [Commpand Palette](https://help.obsidian.md/Plugins/Command+palette "Obsidian") must be used.
+To enable parsing of frontmatter for custom monsters, the note must have a `statblock: true` parameter in its frontmatter, and the "[[Fantasy Statblocks/Plugin Settings#Parse Frontmatter For Creatures|Parse Frontmatter in Notes]]" setting must be enabled, or the corresponding command in [Command Palette](https://help.obsidian.md/Plugins/Command+palette "Obsidian") must be used.
 
 In addition to the statblock, the note must also have a name parameter in the frontmatter to save the creature. All other fields are optional. Once the creature is located in the note's frontmatter, it is automatically added to the bestiary and synced with the note content.
 
@@ -46,16 +46,16 @@ If the statblock field is removed, set to `statblock: false`, or if the note is 
 > trait_04: "Electricity"
 > modifier: 24
 > perception:
->   - name: "Perception"
->     desc: "Perception +24; __darkvision__, __imprecise scent 60__;"
+>  - name: "Perception"
+>  desc: "Perception +24; __darkvision__, __imprecise scent 60__;"
 > languages: "Auran, Common, Draconic, Jotun; "
 > skills:
->   - name: "Skills"
->     desc: "__Acrobatics__: +22 (1d20+22); __Arcana__: +25 (1d20+25); __Deception__: +26 (1d20+26); __Diplomacy__: +26 (1d20+26); __Intimidation__: +24 (1d20+24); __Society__: +23 (1d20+23); __Stealth__: +20 (1d20+20); __Survival__: +22 (1d20+22); "
+>  - name: "Skills"
+>  desc: "__Acrobatics__: +22 (1d20+22); __Arcana__: +25 (1d20+25); __Deception__: +26 (1d20+26); __Diplomacy__: +26 (1d20+26); __Intimidation__: +24 (1d20+24); __Society__: +23 (1d20+23); __Stealth__: +20 (1d20+20); __Survival__: +22 (1d20+22); "
 > abilityMods: [6, 3, 4, 4, 3, 5]
 > abilities_top:
->   - name: "Sound Imitation"
->     desc: "  The dragon can mimic any sound it has heard. It must succeed at a [[compendium/skills.md#Deception|Deception]] check with a +4 circumstance bonus to do so."
+>  - name: "Sound Imitation"
+>  desc: " The dragon can mimic any sound it has heard. It must succeed at a [[compendium/skills.md#Deception|Deception]] check with a +4 circumstance bonus to do so."
 > abilities_mid:
 >   - name: "Frightful Presence"
 >     desc: " ([[aura]], [[emotion]], [[fear]], [[mental]]);  90 feet, DC 32."

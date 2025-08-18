@@ -46,7 +46,7 @@ This format supports `Y`, `M`, and `D` as tokens:
 
 ### Parse files for events
 
-When toggled, this will allow you to specify a folder for Calendarium to search for [Event creation](Calendarium/Event%20creation.md) within notes.  Else, it will look in all files, which increases load times. 
+When toggled, this will allow you to specify a folder for Calendarium to search for [Event creation](Calendarium/Events%20and%20event%20creation.md) within notes. Else, it will look in all files, which increases load times.
 
 #### Events folder
 
@@ -54,13 +54,13 @@ This is the specific folder (and all subfolders) chosen for Calendarium to parse
 
 #### Support for inline events
 
-If you wish to use [Span Tag Event Creation](Calendarium/Event%20creation.md#Span%20Tag%20Event%20Creation) instead Frontmatter event creation, this will need to be enabled.
+If you wish to use [Span Tag Event Creation](Calendarium/Events%20and%20event%20creation.md#Span%20Tag%20Event%20Creation) instead Frontmatter event creation, this will need to be enabled.
 
 #### Default inline events tag
 
 Further scopes the selection of inline events to only notes that contain your specified `#tag`.
 
-> [!warning] This is a setting which is being tested and may not remain in future builds. 
+> [!warning] This is a setting which is being tested and may not remain in future builds.
 
 ## Weekdays
 
@@ -72,7 +72,7 @@ Toggle this option to determine whether every month starts on the first weekday 
 
 ### Add weeks
 
-Use the `+` button to add a list of weekday names. 
+Use the `+` button to add a list of weekday names.
 
 ### First day
 
@@ -84,7 +84,7 @@ Manage months in this section by creating and customizing their names and length
 
 ### Add months
 
-Use the `+` button to add a list of month names. 
+Use the `+` button to add a list of month names.
 
 ### Intercalary or month?
 
@@ -98,7 +98,7 @@ If custom years are created, the calendar will only include the specified years.
 
 ## Current date
 
-Set's the first starting date for this Calendar here. 
+Set's the first starting date for this Calendar here.
 
 ## Events
 
@@ -110,11 +110,11 @@ Want all the events to magically.. disappear? Select the trash can to the right,
 
 ### Filter events
 
-Do you have a very long list of events? You can filter them down with the embedded `🔍        (x)` in settings. You also have the option of deleting filtered events by selecting the 🗑️ to the right of the search bar. 
+Do you have a very long list of events? You can filter them down with the embedded `🔍 (x)` in settings. You also have the option of deleting filtered events by selecting the 🗑️ to the right of the search bar.
 
 ### Add events
 
-If you wish to manually add events, select the `(+)` button to create a new pop-up. The settings for these events 
+If you wish to manually add events, select the `(+)` button to create a new pop-up. The settings for these events
 
 ## Event categories
 
